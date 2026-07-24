@@ -1,9 +1,9 @@
 #include<iostream>
 using namespace std;
 int main(){
-    float x;
+    int x;
     cout<<"enter a number:";
     cin>>x;
-    cout<<"half of the number is:";
-    cout<<x/2;
+    float y = (float)x;
+    cout<<"the half of the number is:"<<y/2;
 }
